@@ -1,0 +1,12 @@
+{
+  "name": "New Tab Radio",
+  "description" : "Play radio in the new tab. Cast it to a chromecast.",
+  "version": "1.0",
+  "chrome_url_overrides": {"newtab": "public/index.html"},
+  "manifest_version": 2,
+  "content_security_policy": "script-src 'self' https://cdnjs.cloudflare.com/ https://unpkg.com/; object-src 'self'",
+  "permissions": [
+    "https://cdnjs.cloudflare.com/*",
+    "https://unpkg.com/*"
+  ]
+}
